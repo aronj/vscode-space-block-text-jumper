@@ -2,6 +2,7 @@
   "name": "space-block-text-jumper",
   "displayName": "Space Block Text Jumper",
   "description": "Jumps between code blocks separated by empty lines and lands on text",
+  "repository": "https://github.com/aronj/vscode-space-block-text-jumper",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
