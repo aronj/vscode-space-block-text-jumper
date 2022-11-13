@@ -44,6 +44,8 @@
     ]
   },
   "scripts": {
+    "release": "yarn deploy",
+    "deploy": "vcse package; vcse publish",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
