@@ -17,6 +17,8 @@ const jump = (direction: number, select = false) => {
     getNewLine(currLine, direction, skipClosestEdge, jumpToBlockSeparator)
   );
 
+  editor.revealRange(new vscode.Range(newLine, 0, newLine, 0));
+
   if (direction === -1) {
     if (select) {
       const currPos = new vscode.Position(
