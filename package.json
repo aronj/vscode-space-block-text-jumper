@@ -4,7 +4,7 @@
   "description": "Jumps between code blocks separated by empty lines and lands on text",
   "repository": "https://github.com/aronj/vscode-space-block-text-jumper",
   "publisher": "aronj",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -44,8 +44,7 @@
     ]
   },
   "scripts": {
-    "release": "yarn deploy",
-    "deploy": "vcse package; vcse publish",
+    "deploy": "vsce package; vsce publish",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
