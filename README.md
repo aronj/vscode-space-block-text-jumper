@@ -6,9 +6,13 @@ This package lets you jump with the cursor vertically across space/whitespace se
 
 # Usage
 
+The extension registers the following commands
+
+![Imgur](https://i.imgur.com/KEr7YbH.png)
+
 Jumping inside a block takes you to the its edge. When jumping from an edge of a block the cursor skips the closest edge in the new block. Consecutive empty lines are always skipped.
 
-# Examples
+# Demo
 
 Moving between blocks and using selection
 
@@ -20,4 +24,4 @@ Using the block selection command
 
 # Port
 
-A deprecated port for sublime text exists here [https://github.com/aronj/sublime-space-block-jumper](https://github.com/aronj/sublime-space-block-jumper)
+A clone for sublime text exists here [https://github.com/aronj/sublime-space-block-jumper](https://github.com/aronj/sublime-space-block-jumper)
